@@ -3,11 +3,11 @@ from final_project import *
 
 
 
-# class TestSources(unittest.TestCase):
+class TestSources(unittest.TestCase):
     #testing sources
-    # def test_scraping(self):
-    #     list_of_ny = get_yelp_info("New York")
-    #     self.assertEqual(len(list_of_ny), 100)
+    def test_scraping(self):
+        list_of_ny = get_yelp_info("New York")
+        self.assertEqual(len(list_of_ny), 100)
 
 class TestDatabase(unittest.TestCase):
     #testing databases
